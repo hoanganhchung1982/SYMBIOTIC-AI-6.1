@@ -19,8 +19,8 @@ import {
 } from 'lucide-react';
 import { Subject, ModuleTab, AIResponse } from './types';
 import { SUBJECT_CONFIG, TAB_CONFIG } from './constants';
-import { generateStudyContent } from './services/geminiService';
-import MermaidChart from './components/MermaidChart';
+import { generateStudyContent } from '../services/geminiService';
+import MermaidChart from '../components/MermaidChart';
 
 const App: React.FC = () => {
   const [currentSubject, setCurrentSubject] = useState<Subject | null>(null);
