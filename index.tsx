@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom/client'; // Sửa dòng này để khớp với cách import từ ESM
-import App from './App';
+import App from './src/App';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
